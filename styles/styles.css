@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin-top: 150px;
+    margin-bottom: 0;
+    color: #3b6978;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #84a9ac;
+}
+
+h3{
+    color: #3b6978;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.top-container {
+    background-color: #e7dfd5;
+    position: relative;
+}
+
+.top-cloud {
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 450px;
+}
+
+.profile-pic {
+    margin-top: 150px;
+    height: 200px;
+    width: 200px;
+}
+
+
+.intro {
+    width: 35%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+
+hr{
+    width: 10%;
+    border: dotted #e7dfd5 10px;
+    border-top: 0; 
+    margin-bottom: 100px;
+}
+
+.skills {
+    margin-top: 150px;
+}
+
+.skill-row {
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.ledger-img {
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.running-img {
+    width: 25%;
+    height: 200px;
+    float: right;
+}
+
+.contact-message {
+    width: 50%;
+    margin: 40px auto 40px auto;
+}
+
+.btn {
+    background-color: #84a9ac;
+    background-image: -webkit-linear-gradient(top, #e7dfd5, #3b6978);
+    background-image: -moz-linear-gradient(top, #e7dfd5, #3b6978);
+    padding: 10px 20px;
+    color: #e7dfd5;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.bottom-container {
+    background-color: #204051;
+    padding: 50px 40px;
+}
+.contact-me {
+    margin-bottom: 50px;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: #3b6978;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.bottom-container a:hover{
+    color: #fff;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 35px;
+}
